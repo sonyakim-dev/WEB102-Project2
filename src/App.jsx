@@ -41,6 +41,13 @@ const cards = [
   },
 ]
 
+const randomIndex = Array.from({length: cards.length}, (_, i) => i);
+function shuffle(array) {
+  array.sort(() => Math.random() - 0.5);
+}
+shuffle(randomIndex);
+
+
 function App() {
   const [currPage, setCurrPage] = useState(0);
   const [isFlipped, setIsFlipped] = useState(false);
@@ -58,14 +65,14 @@ function App() {
       <Cards
         onClick={handleFlipCards}
         isFlipped={isFlipped}
-        word={cards[currPage].word}
-        level={cards[currPage].level}
-        english={cards[currPage].english}
-        korean={cards[currPage].korean}
+        word={cards[randomIndex[currPage]].word}
+        level={cards[randomIndex[currPage]].level}
+        english={cards[randomIndex[currPage]].english}
+        korean={cards[randomIndex[currPage]].korean}
       />
       <div className='buttons'>
-        <button onClick={handlePrevButton} disabled={currPage == 0 ? true : false}>Prev</button>
-        <button onClick={handleNextButton} disabled={currPage == cards.length-1 ? true : false}>Next</button>
+        <button onClick={handlePrevButton} disabled={currPage === 0 ? true : false}>Prev</button>
+        <button onClick={handleNextButton} disabled={currPage === cards.length-1 ? true : false}>Next</button>
       </div>
     </div>
   )

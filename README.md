@@ -4,7 +4,7 @@ Submitted by: **Soyeon Kim**
 
 This web app: **Practice your english words with flashcards!**
 
-Time spent: **2.5** hours spent in total
+Time spent: **3** hours spent in total
 
 ## Required Features
 
@@ -14,7 +14,7 @@ The following **required** functionality is completed:
 - [x] **A single card at a time is displayed, only showing one of the components of the information pair**
 - [x] **A list of card pairs is created**
 - [x] **Clicking on the card shows the corresponding component of the information pair**
-- [ ] **Clicking the next button displays a random new card**
+- [x] **Clicking the next button displays a random new card**
 
 The following **optional** features are implemented:
 
@@ -24,7 +24,7 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-* [ ] List anything else that you added to improve the site's functionality!
+* [x] Disable button when it hit the end of cards
 
 ## Video Walkthrough
 
@@ -33,7 +33,7 @@ Here's a walkthrough of implemented required features:
 <img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
+GIF created with ...  [EZGIF](https://ezgif.com/)
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
@@ -45,7 +45,7 @@ Describe any challenges encountered while building the app.
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2023] [Soyeon Kim]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
