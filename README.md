@@ -20,7 +20,7 @@ The following **optional** features are implemented:
 
 - [ ] Cards contains images in addition to or in place of text
 - [x] Cards have different visual styles such as color based on their category
-  - [ ] *difficulity of level - easy: green, medium: yellow, hard: red*
+  - [x] *difficulity of level - easy: green, medium: yellow, hard: red*
 
 The following **additional** features are implemented:
 
@@ -30,7 +30,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-<img src='hhttps://github.com/sonyakim-dev/WEB102-Project2/blob/main/src/assets/ezgif.com-video-to-gif.gif?raw=true' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://github.com/sonyakim-dev/WEB102-Project2/blob/main/src/assets/ezgif.com-video-to-gif.gif?raw=true' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...  [EZGIF](https://ezgif.com/)
