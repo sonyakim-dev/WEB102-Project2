@@ -28,7 +28,7 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='' title='https://github.com/sonyakim-dev/WEB102-Project2/blob/main/src/assets/Screen-Recording-2023-03-13-at-4.gif?raw=true' width='' alt='Video Walkthrough' />
+<img src='https://github.com/sonyakim-dev/WEB102-Project2/blob/main/src/assets/Screen-Recording-2023-03-13-at-4.gif?raw=true' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with ...  [Online Converter](https://www.onlineconverter.com/video-to-gif)
 
